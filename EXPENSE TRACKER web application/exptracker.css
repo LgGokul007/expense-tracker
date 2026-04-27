@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-image: url(ChatGPT\ Image\ Apr\ 24\,\ 2026\,\ 04_26_32\ PM.png);
+    margin-top: 10px;
+}
+#heading{
+    font-size: 50px;
+    color: black;
+}
+label,input,#selecct{
+   margin: 7px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+#btnmain{
+    font-size:  20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#total{
+    font-size: 30px;
+}
+
+#money{
+    color: brown
+}
+
+.para{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin: 10px;
+   height: 30px;
+   font-size: 20px;
+   color: blue;
+}
+
+.para-btn{
+    color: black;
+    
+}
+.gap{
+    margin:10px;
+}
+
+.delbutton{
+    margin-left: 100px;
+    margin-right: 0px;
+    background-color:red;
+    border-radius: 5px;
+   
+    
+   
+   
+    
+}
+
+

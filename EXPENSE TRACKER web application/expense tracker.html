@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="exptracker.css">
+        <title>"expense tracker"</title>
+    </head>
+    <body>
+     <div id="container">
+        <h1 id="heading">EXPENSE TRACKER</h1>
+        <label>ENTER AMOUNT:
+          <input type="number" id="inputamt" placeholder="0.00₹">
+        </label><br>
+        <label> ENTER DATE:
+          <input type="date" id="inputdate" >
+        </label><br>
+        <label>DESCRIPTION OF EXPENSE:
+            <input type="text" id="inputdescrp" placeholder="description">
+        </label><br>
+        <label id="label">MODE OF TRANSACTION:
+            <select id="selecct">
+                <option>CASH</option>
+                <option>CARD</option>
+                <option>UPI</option>
+                <option>OTHER</option>
+            </select>
+        </label><br>
+
+        <button onclick="submitbtn()" id="btnmain">submit</button>
+    </div>
+    <h1 id ="total">TOTAL EXPENSE:<br>₹<span id="money">0</span></h1>
+    <div id="container2">
+
+    </div>
+        <script src="test.js"></script>
+    
+    </body>
+</html>
