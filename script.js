@@ -31,6 +31,7 @@ function submitbtn(){
             
             render()
             console.log(amountarray)
+           
             
             
 
@@ -40,16 +41,18 @@ function submitbtn(){
     
     containerdisplay.append(para)
     console.log(amountarray)
+    
 
     //arrayloop for adding
     function render(){
     if(amountarray.length>=1){  
-    let totalval=1
+    let totalval=0
     amountarray.forEach((values)=>{
         
         totalval+=values.AMOUNT
         displaytotal.innerText=totalval
         console.log(totalval)
+        
     
     
 
