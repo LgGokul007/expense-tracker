@@ -44,7 +44,7 @@ function submitbtn(){
     //arrayloop for adding
     function render(){
     if(amountarray.length>=1){  
-    let totalval=0
+    let totalval=1
     amountarray.forEach((values)=>{
         
         totalval+=values.AMOUNT
